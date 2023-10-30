@@ -7,3 +7,7 @@ resource "aws_instance" "ar" {
   ami = "ami-0fc5d935ebf8bc3bc"
   subnet_id = "subnet-0a7028d66be79e8c2"
 }
+
+resource "aws_s3_bucket" "s3_bucket" {
+  bucket = "ar-s3-demo-xyz"
+}
