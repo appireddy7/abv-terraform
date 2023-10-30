@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ar" {
-  instance_type = "t2.micro"
+  instance_type = "t2.micr"
   ami = "ami-0fc5d935ebf8bc3bc"
   subnet_id = "subnet-0a7028d66be79e8c2"
 }
