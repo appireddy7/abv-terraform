@@ -1,0 +1,2 @@
+first run terraform with main.tf by commenting backend.tf
+uncomment backend.tf and run terraform on both files
