@@ -1,7 +1,7 @@
-/*terraform {
+terraform {
   backend "s3" {
-    bucket = "value"
-    region = "value"
+    bucket = "ar-s3-demo-xyz"
+    region = "us-east-1"
     key = "ar/terraform.tfstate"
   }
-}*/
+}
